@@ -1,0 +1,56 @@
+{
+  "cameras": [
+    {
+      "id": "CAM-A1",
+      "name": "Северный коридор",
+      "location": "1 этаж, северное крыло",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-11-05T06:00:00Z",
+      "demo": true
+    },
+    {
+      "id": "CAM-A2",
+      "name": "Компьютерная аудитория",
+      "location": "кабинет 207",
+      "status": "offline",
+      "previewUrl": "",
+      "updatedAt": "2026-11-05T06:00:00Z",
+      "demo": true
+    },
+    {
+      "id": "CAM-A3",
+      "name": "Служебный вход",
+      "location": "двор колледжа",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-11-05T06:00:00Z",
+      "demo": true
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "motion",
+      "cameraId": "CAM-A3",
+      "severity": "medium",
+      "message": "Демо: движение у служебного входа",
+      "createdAt": "2026-11-05T07:50:00Z",
+      "demo": true
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "title": "Демо: проверка камеры у входа",
+      "cameraId": "CAM-A3",
+      "severity": "high",
+      "description": "Проверка обработки тревоги",
+      "status": "new",
+      "assignee": null,
+      "createdAt": "2026-11-05T07:51:00Z",
+      "updatedAt": "2026-11-05T07:51:00Z",
+      "demo": true
+    }
+  ]
+}
